@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pis.hue2.client</OriginalElement>
+  <nodes>
+    <node x="261.0" y="852.0">pis.hue2.client.files</node>
+    <node x="514.0555555555554" y="581.8888888888889">pis.hue2.client.GuiCommand</node>
+    <node x="651.7777777777776" y="116.3333333333334">pis.hue2.client.launchClient</node>
+    <node x="523.75" y="344.0">pis.hue2.client.RequestThread</node>
+    <node x="201.99999999999994" y="481.0">pis.hue2.client.PutThread</node>
+    <node x="621.0" y="481.0">pis.hue2.client.DisconnectThread</node>
+    <node x="459.11111111111103" y="712.2222222222223">pis.hue2.client.UpdateTextAreaGuiCommand</node>
+    <node x="0.0" y="852.0">pis.hue2.client.Klassendiagramm</node>
+    <node x="410.0000000000001" y="8.888888888888886">pis.hue2.client.Client</node>
+    <node x="827.0" y="481.0">pis.hue2.client.ConnectThread</node>
+    <node x="403.99999999999994" y="481.0">pis.hue2.client.DeleteThread</node>
+    <node x="-230.00000000000003" y="522.2222222222221">pis.hue2.client.Instruction</node>
+    <node x="788.1111111111109" y="712.2222222222223">pis.hue2.client.SetDisconnectedLayoutGuiCommand</node>
+    <node x="1019.0" y="481.0">pis.hue2.client.ListThread</node>
+    <node x="0.0" y="481.0">pis.hue2.client.GetThread</node>
+    <node x="107.77777777777766" y="705.5555555555555">pis.hue2.client.SetConnectedLayoutGuiCommand</node>
+    <node x="-248.66666666666666" y="85.55555555555551">pis.hue2.client.Controller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pis.hue2.client.ListThread" target="pis.hue2.client.RequestThread">
+      <point x="0.0" y="-38.5" />
+      <point x="1091.5" y="441.0" />
+      <point x="678.6666666666667" y="441.0" />
+      <point x="70.41666666666674" y="38.5" />
+    </edge>
+    <edge source="pis.hue2.client.ConnectThread" target="pis.hue2.client.RequestThread">
+      <point x="0.0" y="-38.5" />
+      <point x="913.0" y="451.0" />
+      <point x="650.5" y="451.0" />
+      <point x="42.25" y="38.5" />
+    </edge>
+    <edge source="pis.hue2.client.DeleteThread" target="pis.hue2.client.RequestThread">
+      <point x="0.0" y="-38.5" />
+      <point x="502.49999999999994" y="461.0" />
+      <point x="594.1666666666665" y="461.0" />
+      <point x="-14.083333333333371" y="38.5" />
+    </edge>
+    <edge source="pis.hue2.client.UpdateTextAreaGuiCommand" target="pis.hue2.client.GuiCommand">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="pis.hue2.client.GetThread" target="pis.hue2.client.RequestThread">
+      <point x="0.0" y="-38.5" />
+      <point x="91.0" y="441.0" />
+      <point x="537.8333333333333" y="441.0" />
+      <point x="-70.41666666666669" y="38.5" />
+    </edge>
+    <edge source="pis.hue2.client.SetDisconnectedLayoutGuiCommand" target="pis.hue2.client.GuiCommand">
+      <point x="0.0" y="-38.5" />
+      <point x="944.1111111111109" y="687.2222222222223" />
+      <point x="676.2777777777776" y="687.2222222222223" />
+      <point x="62.66666666666663" y="38.5" />
+    </edge>
+    <edge source="pis.hue2.client.PutThread" target="pis.hue2.client.RequestThread">
+      <point x="0.0" y="-38.5" />
+      <point x="292.99999999999994" y="451.0" />
+      <point x="566.0" y="451.0" />
+      <point x="-42.25" y="38.5" />
+    </edge>
+    <edge source="pis.hue2.client.SetConnectedLayoutGuiCommand" target="pis.hue2.client.GuiCommand">
+      <point x="0.0" y="-38.5" />
+      <point x="256.77777777777766" y="680.5555555555555" />
+      <point x="550.9444444444443" y="687.2222222222223" />
+      <point x="-62.666666666666686" y="38.5" />
+    </edge>
+    <edge source="pis.hue2.client.DisconnectThread" target="pis.hue2.client.RequestThread">
+      <point x="0.0" y="-38.5" />
+      <point x="714.0" y="461.0" />
+      <point x="622.3333333333333" y="461.0" />
+      <point x="14.083333333333371" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="469.99999999999983" y="472.22222222222223" />
+  <SelectedNodes>
+    <node>pis.hue2.client.Controller</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+

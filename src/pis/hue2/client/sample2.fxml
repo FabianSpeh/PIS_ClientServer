@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pis.hue2.client.Controller">
+    <children>
+        <Button fx:id="ConnectBtn" layoutX="113.0" layoutY="428.0" mnemonicParsing="false" onAction="#pressConnectBtn" prefHeight="56.0" prefWidth="274.0" style="-fx-background-color: #696969;" text="Connect to Server" textFill="WHITE">
+            <font>
+                <Font size="26.0" />
+            </font>
+            <effect>
+                <InnerShadow choke="0.65" />
+            </effect>
+        </Button>
+        <Button fx:id="GetBtn" layoutX="14.0" layoutY="398.0" mnemonicParsing="false" onAction="#pressGetButton" prefHeight="30.0" prefWidth="67.0" text="GET" visible="false">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="PutBtn" layoutX="146.0" layoutY="398.0" mnemonicParsing="false" onAction="#pressPutButton" prefHeight="30.0" prefWidth="67.0" text="PUT" visible="false">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="LstBtn" layoutX="281.0" layoutY="398.0" mnemonicParsing="false" onAction="#pressListBtn" prefHeight="30.0" prefWidth="67.0" text="LST" visible="false">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="DelBtn" layoutX="408.0" layoutY="398.0" mnemonicParsing="false" onAction="#pressDelButton" prefHeight="30.0" prefWidth="67.0" text="DEL" visible="false">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="DscBtn" layoutX="186.0" layoutY="447.0" mnemonicParsing="false" onAction="#pressDscButton" prefHeight="39.0" prefWidth="128.0" text="DSC" visible="false">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <TextArea fx:id="TextOutputArea" editable="false" layoutX="64.0" layoutY="37.0" prefHeight="314.0" prefWidth="373.0" promptText="Hover Buttons for more information..">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextArea>
+        <TextField fx:id="addressText" layoutX="113.0" layoutY="379.0" prefHeight="25.0" prefWidth="128.0" promptText="default: 127.0. 0.1" />
+        <TextField fx:id="portText" layoutX="257.0" layoutY="379.0" prefHeight="25.0" prefWidth="128.0" promptText="default: 3001" />
+        <Label fx:id="addressLabel" layoutX="152.0" layoutY="351.0" prefHeight="17.0" prefWidth="50.0" text="Address">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="portLabel" layoutX="304.0" layoutY="351.0" prefHeight="17.0" prefWidth="50.0" text="Port">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="connectionLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="137.0" layoutY="2.0" prefHeight="25.0" prefWidth="227.0" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
